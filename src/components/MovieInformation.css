@@ -1,0 +1,30 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movies > div {
+  background-color: rgb(40, 50, 50);
+  box-shadow: 0 0 8px 1px #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  width: 200px;
+  min-height: 250px;
+}
+
+.movies > div:hover {
+  transform: scale(1.01);
+}
+
+.movies .small {
+  font-size: 12px;
+  line-height: 5px;
+}
+
+.movies img {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  margin-left: 1px;
+}
